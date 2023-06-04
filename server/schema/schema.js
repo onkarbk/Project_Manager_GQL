@@ -112,7 +112,7 @@ const mutation = new GraphQLObjectType({
                         name: 'ProjectStatus',
                         values: {
                             'new': {value: 'Not Started'}, 
-                            'progress': {value: 'In progress'}, 
+                            'progress': {value: 'In Progress'}, 
                             'completed': {value: 'Completed'}
                             }
                     }), 
